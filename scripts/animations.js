@@ -56,16 +56,16 @@ document.querySelectorAll(".information span").forEach((span, index) => {
     document.querySelector(".popup-img").style.display = "block";
     switch (index) {
       case 0:
-        document.querySelector(".popup-img img").src = "/assets/me/hiking.PNG";
+        document.querySelector(".popup-img img").src = "assets/me/hiking.PNG";
         break;
       case 1:
-        document.querySelector(".popup-img img").src = "/assets/me/kayak.PNG";
+        document.querySelector(".popup-img img").src = "assets/me/kayak.PNG";
         break;
       case 2:
-        document.querySelector(".popup-img img").src = "/assets/me/camping.PNG";
+        document.querySelector(".popup-img img").src = "assets/me/camping.PNG";
         break;
       default:
-        document.querySelector(".popup-img img").src = "/assets/me/me.jpg";
+        document.querySelector(".popup-img img").src = "assets/me/me.jpg";
     }
   };
 });
