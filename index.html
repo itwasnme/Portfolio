@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Metadata for Browser-->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Metadata for users and search engines-->
+    <title>Nicolas Meneses Portfolio</title>
+    <link rel="icon" href="/assets/icon.png" type="image/png" />
+    <meta
+      name="description"
+      content="Computer Science/Software Developer Portfolio"
+    />
+    <meta name="author" content="Nicolas Meneses" />
+    <meta name="copyright" content="2023, Nicolas Meneses" />
+    <!-- Metadata for Open Graph Protocol -->
+    <meta property="og:title" content="Nicolas Meneses Portfolio" />
+    <meta property="og:image" content="" />
+    <meta
+      property="og:description"
+      content="Software Developer, Computer Scientist, Programmer Portfolio"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="www.nicolasmeneses.com" />
+    <meta property="og:site_name" content="Nicolas Meneses Personal Website" />
+    <!-- Styles, Scripts, Fonts, out-of-this file Resources-->
+    <link rel="stylesheet" type="text/css" href="/styles/homepage-styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="introduction">
+        <div class="shade">
+          <h1>HEY, I'M NICOLAS</h1>
+          <p>Computer Scientist | Coding Enthusiast</p>
+        </div>
+      </div>
+      <div id="about"></div>
+      <header>
+        <div class="logo">
+          <a href="#">
+            <img src="/assets/logo.png" alt="Nicolas Meneses Portfolio Logo" />
+          </a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/nicolas-meneses-6519461a2/"
+                target="_blank"
+                >LinkedIn</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/itwasnme" target="_blank">Github</a>
+            </li>
+            <li><a href="/assets/resume.pdf" target="_blank">Resume</a></li>
+          </ul>
+        </nav>
+        <!-- Hamburger Menu for Responsiveness -->
+        <input type="checkbox" id="toggle_btn" class="toggle_btn" />
+        <label for="toggle_btn" class="toggle_btn_label">
+          <span></span>
+        </label>
+        <div class="drop_menu">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/nicolas-meneses-6519461a2/"
+                target="_blank"
+                >LinkedIn</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/itwasnme" target="_blank">Github</a>
+            </li>
+            <li><a href="/assets/resume.pdf" target="_blank">Resume</a></li>
+          </ul>
+        </div>
+        <!-- Hamburger Menu for Responsiveness -->
+      </header>
+      <main>
+        <div class="about_Me">
+          <div class="text">
+            <div class="greetings">
+              <h1>Hi there! My name is</h1>
+              <h2>Nicolas Meneses</h2>
+              <h3>Welcome to my project portfolio.</h3>
+            </div>
+            <div class="information">
+              <p>
+                I'm a passionate computer science graduate driven to create
+                innovative solutions at the crossroads of technology and
+                security. With formal education in computer science, I've
+                cultivated my interest in
+                <a href="#projects">web development</a>,
+                <a href="#embeddedsys">embedded systems</a>, and
+                <a href="#cybersec">cybersecurity</a>.
+              </p>
+              <p>
+                I'm an enthusiast of outdoor adventures, whether it's
+                <span>hiking with my cat</span>, <span>kayaking</span>, or
+                <span>camping</span>. These hobbies fuel my creativity and
+                provide a well-rounded perspective.
+              </p>
+            </div>
+          </div>
+          <div class="picture">
+            <img
+              src="/assets/me/me.jpg"
+              alt="Nicolas Meneses, Software Engineer"
+            />
+          </div>
+        </div>
+        <div id="projects"></div>
+        <div class="projects">
+          <h2>
+            <a href="https://github.com/itwasnme/TriviaWebApp" target="_blank">
+              TRIVIA GAME WEB APP
+            </a>
+          </h2>
+          <div class="project">
+            <div class="scroller">
+              <div class="media-element">
+                <img src="/assets/trivia/landing.PNG" alt="" />
+              </div>
+              <div class="media-element">
+                <img src="/assets/trivia/register.PNG" alt="" />
+              </div>
+              <div class="media-element">
+                <img src="/assets/trivia/home.PNG" alt="" />
+              </div>
+              <div class="media-element">
+                <img src="/assets/trivia/question.PNG" alt="" />
+              </div>
+              <div class="media-element">
+                <img src="/assets/trivia/stats.PNG" alt="" />
+              </div>
+            </div>
+            <div class="description">
+              <p>
+                <b>Description:</b> Engage in captivating head-to-head
+                competitions across a spectrum of question categories, including
+                sports, history, science, and more. Challenge friends and trivia
+                aficionados to showcase your expertise and emerge as the
+                ultimate quiz champion.
+              </p>
+              <p>
+                <b>Features:</b> (1) Engaging Trivia Challenges with diverse
+                topics and questions (2) User account creation (3) Comprehensive
+                user statistics based on game performance (4) Real-time
+                multiplayer.
+              </p>
+              <p>
+                <b>Tools Used:</b> HTML, CSS, JavaScript, PHP, MySQL, Open
+                Trivia Database API.
+              </p>
+            </div>
+          </div>
+          <h2>
+            <a
+              href="https://github.com/itwasnme/Hoomate-Finder"
+              target="_blank"
+            >
+              ROOMMATE FINDER WEB APP
+            </a>
+          </h2>
+          <div class="project">
+            <div class="description">
+              <p>
+                <b>Description:</b> The "Hoommate Finder", a collaborative
+                project undertaken by a team of five, is a dynamic roommate
+                discovery service designed to connect Hoos and help them find
+                compatible roommates. The platform introduces a unique swiping
+                concept, reminiscent of popular dating apps, to facilitate
+                roommate matches.
+              </p>
+              <p>
+                <b>Features:</b> (1) Profile Creation and Hoommate Filtering (2)
+                Swiping-based search mechanism that displays profiles matching
+                the user's chosen filters (3) Matching and Messaging with other
+                Hoommates (4) Sharing Locations with Hoommates via the Mapbox
+                API.
+              </p>
+              <p>
+                <b>Tools Used:</b> Django, Bootstrap, PostgresSQL, Travis CI,
+                Mapbox API, Google Auth API, Heroku.
+              </p>
+            </div>
+            <div class="scroller">
+              <div class="media-element">
+                <img src="/assets/ASD/landing.PNG" alt="" />
+              </div>
+              <div class="media-element">
+                <img src="/assets/ASD/information.PNG" alt="" />
+              </div>
+              <div class="media-element">
+                <img src="/assets/ASD/contact.PNG" alt="" />
+              </div>
+              <div class="media-element">
+                <img src="/assets/ASD/profile.PNG" alt="" />
+              </div>
+              <div class="media-element">
+                <img src="/assets/ASD/chat.PNG" alt="" />
+              </div>
+            </div>
+          </div>
+          <h2>
+            <a href="https://github.com/itwasnme/WebAppTesting" target="_blank">
+              TYPING TEST WEB APP
+            </a>
+          </h2>
+          <div class="project">
+            <div class="scroller">
+              <div class="media-element">
+                <img src="/assets/testing/landing.PNG" alt="" />
+              </div>
+              <div class="media-element">
+                <img src="/assets/testing/modeA.PNG" alt="" />
+              </div>
+              <div class="media-element">
+                <img src="/assets/testing/resultsA.PNG" alt="" />
+              </div>
+              <div class="media-element">
+                <img src="/assets/testing/modeB.PNG" alt="" />
+              </div>
+              <div class="media-element">
+                <img src="/assets/testing/resultsB.PNG" alt="" />
+              </div>
+            </div>
+            <div class="description">
+              <p>
+                <b>Description:</b> I rigorously test a Typing Speed Test web
+                app with a focus on Edge-Coverage criteria. The app features two
+                modes: Mode A challenges users to type under 60 seconds,
+                yielding metrics like 'asserts', 'errors', and 'words per
+                minute', while Mode B tracks real-time stats during alphabet
+                typing, concluding with 'words per minute', 'characters per
+                minute', and 'time taken' results.
+              </p>
+              <p>
+                <b>Features:</b> (1) Two engaging speed test modes (2) User
+                performance metrics (3) Edge-coverage testing (4) Unit-level
+                testing.
+              </p>
+              <p>
+                <b>Tools Used:</b> Django for the web app, Selenium Java and
+                JUnit 4 for testing.
+              </p>
+            </div>
+          </div>
+          <div id="embeddedsys"></div>
+          <h2>
+            <a href="https://github.com/itwasnme/Arduino" target="_blank">
+              ARDUINO SENSOR EXPLORATION
+            </a>
+          </h2>
+          <div class="project">
+            <div class="description">
+              <p>
+                <b>Description:</b> Arduino mini projects with a focus on
+                sensors. Explore LED sequencing, light sensitivity-driven
+                brightness control, accelerometer-triggered color shifts, and
+                servo motor manipulation.
+              </p>
+              <p>
+                <b>Features:</b> (1) LED displays featuring custom color
+                sequences (2) LED brightness adjustment based on Arduino's light
+                sensor (3) LED lights dynamically changing colors using
+                accelerometer input (4) Servo motor control facilitated by
+                accelerometer-based interactions.
+              </p>
+              <p>
+                <b>Tools Used:</b> Arduino Board, Arduino IDE, LEDs, Light
+                Sensor, Accelerometer, Servo Motor, Breadboard, Resistors,
+                Jumper Wires, Sensor Libraries.
+              </p>
+            </div>
+            <div class="scroller">
+              <div class="media-element">
+                <img src="/assets/arduino/Led.PNG" alt="" />
+              </div>
+              <div class="media-element">
+                <img src="/assets/arduino/LightSensor.PNG" alt="" />
+              </div>
+              <div class="media-element">
+                <img src="/assets/arduino/Accelerometer.PNG" alt="" />
+              </div>
+              <div class="media-element">
+                <img src="/assets/arduino/Motor.PNG" alt="" />
+              </div>
+            </div>
+          </div>
+          <h2>
+            <a
+              href="https://www.youtube.com/shorts/B1Voy2deEu0"
+              target="_blank"
+            >
+              SMART LINE-FOLLOWER ROBOT
+            </a>
+          </h2>
+          <div class="project">
+            <div class="scroller">
+              <div class="media-element">
+                <img src="/assets/robotics/robot2.PNG" alt="" />
+              </div>
+              <div class="media-element">
+                <img src="/assets/robotics/robot3.PNG" alt="" />
+              </div>
+              <div class="media-element">
+                <img src="/assets/robotics/robot4.PNG" alt="" />
+              </div>
+              <div class="media-element">
+                <img src="/assets/robotics/robot1.PNG" alt="" />
+              </div>
+            </div>
+            <div class="description">
+              <p>
+                <b>Description:</b> Unite advanced sensors, microcontroller
+                tech, and real-time LCD updates in a versatile robot.
+              </p>
+              <p>
+                <b>Features:</b> (1) Identifying and tracing a black line on the
+                surface (2) Cease motion upon activation of any bump sensor (3)
+                Halt motion when light intensity falls below a set threshold (4)
+                Come to a standstill upon being lifted (5) Showcase real-time
+                status data and information through an integrated LCD display.
+              </p>
+              <p>
+                <b>Tools Used:</b> TI-RSLK Kit components (MSP432
+                Microcontroller), Sensors BoosterPack, Nokia 5110 LCD Display,
+                Code Composer Studio utilizing the C Programming Language and
+                the MSP432 Peripheral Driver Library.
+              </p>
+            </div>
+          </div>
+          <div id="cybersec"></div>
+          <h2>
+            <a href="/assets/pentest1/PenTest1.pdf" target="_blank">
+              PEN TEST 1
+            </a>
+          </h2>
+          <div class="project">
+            <div class="description">
+              <p>
+                <b>Description:</b> Penetration Test Report crafted for the
+                fictitious company Pegasus Technical Services. It stands as a
+                comprehensive analysis of the company's cybersecurity posture.
+                This in-depth report combines strategic insights with technical
+                evaluations to provide a holistic overview of the organization's
+                security landscape.
+              </p>
+              <p>
+                <b>Features:</b> (1) Executive Summary (2) Technical Report.
+              </p>
+              <p>
+                <b>Tools Used:</b> Kali Linux, Nmap, Nessus, Metasploit, THC
+                Hydra, John the Ripper, Rockyou.txt wordlist.
+              </p>
+            </div>
+            <div class="scroller">
+              <div class="media-element">
+                <img src="/assets/pentest1/report.PNG" alt="" />
+              </div>
+              <div class="media-element">
+                <img src="/assets/pentest1/report1.PNG" alt="" />
+              </div>
+              <div class="media-element">
+                <img src="/assets/pentest1/report2.PNG" alt="" />
+              </div>
+              <div class="media-element">
+                <img src="/assets/pentest1/report3.PNG" alt="" />
+              </div>
+            </div>
+          </div>
+          <h2>
+            <a href="/assets/pentest2/PenTest2.pdf" target="_blank">
+              PEN TEST 2
+            </a>
+          </h2>
+          <div class="project">
+            <div class="scroller">
+              <div class="media-element">
+                <img src="/assets/pentest2/report.PNG" alt="" />
+              </div>
+              <div class="media-element">
+                <img src="/assets/pentest2/report1.PNG" alt="" />
+              </div>
+              <div class="media-element">
+                <img src="/assets/pentest2/report2.PNG" alt="" />
+              </div>
+              <div class="media-element">
+                <img src="/assets/pentest2/report3.PNG" alt="" />
+              </div>
+            </div>
+            <div class="description">
+              <p>
+                <b>Description:</b> Penetration Test Report conducted for the
+                fictitious Wise County Youth Soccer Association that provides a
+                comprehensive assessment of the organization's online security
+                infrastructure. This detailed report delves into the
+                vulnerabilities and weaknesses present within the soccer
+                school's website, offering valuable insights to enhance their
+                digital defenses.
+              </p>
+              <p>
+                <b>Features:</b> (1) Executive Summary (2) Technical Report (3)
+                Active Reconnaissance (4) Passive Reconnaissance (OSINT).
+              </p>
+              <p>
+                <b>Tools Used:</b> Kali Linux, Nmap, Nessus, THC Hydra, John the
+                Ripper, Metasploit.
+              </p>
+            </div>
+          </div>
+          <h2>
+            <a
+              href="https://uva-cs4730-sum22.github.io/project-nmr/"
+              target="_blank"
+            >
+              ANIMAL REBELLION
+            </a>
+          </h2>
+          <div class="project">
+            <div class="description">
+              <p>
+                <b>Description:</b> "Animal Rebellion" is a captivating 2D
+                platformer game crafted using JavaScript and the Phaser 3
+                library. As the sole developer, I meticulously handled all
+                aspects, from coding and drawing to animations and map
+                creations, ensuring a seamless and immersive gaming experience.
+              </p>
+              <p>
+                <b>Features:</b> (1) Intuitive controls (2) Responsive gameplay
+                mechanics (3) Two levels filled with obstacles and enemies
+                designed to test player reflexes and skills.
+              </p>
+              <p>
+                <b>Tools Used:</b> Phaser 3 Library, Photoshop, DragonBones.
+              </p>
+            </div>
+            <div class="scroller">
+              <div class="media-element">
+                <img src="/assets/AR/landing.PNG" alt="" />
+              </div>
+              <div class="media-element">
+                <img src="/assets/AR/tutorial.PNG" alt="" />
+              </div>
+              <div class="media-element">
+                <img src="/assets/AR/history.PNG" alt="" />
+              </div>
+              <div class="media-element">
+                <img src="/assets/AR/camp.PNG" alt="" />
+              </div>
+              <div class="media-element">
+                <img src="/assets/AR/mission1.PNG" alt="" />
+              </div>
+            </div>
+          </div>
+          <h2>
+            <a
+              href="https://github.com/itwasnme/PVS-pharmacy-sales-extractor"
+              target="_blank"
+            >
+              ARC TOOL
+            </a>
+          </h2>
+          <div class="project">
+            <div class="scroller">
+              <div class="media-element">
+                <img src="/assets/ARC/report.PNG" alt="" />
+              </div>
+              <div class="media-element">
+                <img src="/assets/ARC/report1.PNG" alt="" />
+              </div>
+              <div class="media-element">
+                <img src="/assets/ARC/report2.PNG" alt="" />
+              </div>
+              <div class="media-element">
+                <img src="/assets/ARC/tool1.PNG" alt="" />
+              </div>
+              <div class="media-element">
+                <img src="/assets/ARC/tool2.PNG" alt="" />
+              </div>
+            </div>
+            <div class="description">
+              <p>
+                <b>Description:</b> Python script tool that serves as a powerful
+                solution for analyzing sales data efficiently. Tailored for
+                pharmaceutical sales, this tool processes input from a CSV file
+                and extracts, analyzes, and organizes the essential information
+                required by American Redwood Consulting reports.
+              </p>
+              <p>
+                <b>Features:</b> (1) CSV Data Processing (2) Comprehensive Data
+                Insights (3) Controlled Substances Analysis.
+              </p>
+              <p><b>Tools Used:</b> Python 3 with Pandas Module.</p>
+            </div>
+          </div>
+          <h2>
+            <a
+              href="https://github.com/itwasnme/ChessGameEngine"
+              target="_blank"
+            >
+              CHESS GAME ENGINE
+            </a>
+          </h2>
+          <div class="project">
+            <div class="description">
+              <p>
+                <b>Description:</b> Chess Game Engine built from scratch using
+                C++. Designed specifically for the Windows Terminal environment,
+                this project offers a compelling blend of refinement,
+                functionality, and educational value.
+              </p>
+              <p>
+                <b>Features:</b> (1) Basic Windows Terminal UI (2) Player vs
+                Player Mode (3) Player vs AI Mode (4) Rule Enforcement.
+              </p>
+              <p>
+                <b>Tools Used:</b> C++ Programming Language, the C++ Standard
+                Library, windows.h header file to access Windows-specific
+                functions.
+              </p>
+            </div>
+            <div class="scroller">
+              <div class="media-element">
+                <img src="/assets/chess/chess1.PNG" alt="" />
+              </div>
+              <div class="media-element">
+                <img src="/assets/chess/chess2.PNG" alt="" />
+              </div>
+              <div class="media-element">
+                <img src="/assets/chess/chess3.PNG" alt="" />
+              </div>
+              <div class="media-element">
+                <img src="/assets/chess/chess4.PNG" alt="" />
+              </div>
+              <div class="media-element">
+                <img src="/assets/chess/chess5.PNG" alt="" />
+              </div>
+            </div>
+          </div>
+          <!-- TODO
+          <h2><a href="#" target="_blank"> SHELL </a></h2>
+          <div class="project">
+            <div class="scroller">
+              <div class="media-element">
+                <img src="/assets/chess/chess1.PNG" alt="" />
+              </div>
+              <div class="media-element">
+                <img src="/assets/chess/chess2.PNG" alt="" />
+              </div>
+              <div class="media-element">
+                <img src="/assets/chess/chess3.PNG" alt="" />
+              </div>
+              <div class="media-element">
+                <img src="/assets/chess/chess4.PNG" alt="" />
+              </div>
+              <div class="media-element">
+                <img src="/assets/chess/chess5.PNG" alt="" />
+              </div>
+            </div>
+            <div class="description">
+              <p>Description:</p>
+              <p>Features:</p>
+              <p>Tools Used:</p>
+            </div>
+          </div>
+          <h2><a href="#" target="_blank"> DATA STRUCTURES SITE </a></h2>
+          <div class="project">
+            <div class="description">
+              <p>Description:</p>
+              <p>Features:</p>
+              <p>Tools Used:</p>
+            </div>
+            <div class="scroller">
+              <div class="media-element">
+                <img src="/assets/robotics/robot2.PNG" alt="" />
+              </div>
+              <div class="media-element">
+                <img src="/assets/robotics/robot3.PNG" alt="" />
+              </div>
+              <div class="media-element">
+                <img src="/assets/robotics/robot4.PNG" alt="" />
+              </div>
+              <div class="media-element">
+                <img src="/assets/robotics/robot1.PNG" alt="" />
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </main>
+      <footer>
+        <p class="copyright_text">
+          &copy; 2023. All rights reserved. Designed by Nicolas Meneses
+        </p>
+      </footer>
+      <div class="popup-img">
+        <span>&times;</span>
+        <img src="/assets/robotics/robot1.PNG" alt="" />
+      </div>
+    </div>
+    <script src="/scripts/animations.js"></script>
+  </body>
+</html>
